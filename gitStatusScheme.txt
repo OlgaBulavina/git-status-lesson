@@ -1,0 +1,15 @@
+
+1. Untracked
+-> git add
+2. Staged + tracked
+or -> git commit
+3. tracked
+-> changes
+4. modified
+-> git add
+5. back to step 2)
+
+or -> changes*
+3. modified
+-> git add
+4. staged + tracked (back to step 2))
