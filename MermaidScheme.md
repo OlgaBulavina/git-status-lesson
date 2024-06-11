@@ -1,6 +1,7 @@
 HEAD - STATUS OF FILES IN GIT
 
 ```mermaid
+graph LR;
 %%how changes status of files in git
 A[untracked] --> B{git add} --> C[staged, tracked];
 C -- some changes --> G[modified];
