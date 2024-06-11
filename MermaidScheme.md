@@ -6,6 +6,6 @@ graph LR;
 A[untracked] --> B{git add} --> C[staged, tracked];
 C -- some changes --> G[modified];
 C --> D{git commit} --> E[tracked] -- some changes --> G[modified];
-G --> {git add} --> C;
+G --> F{git add} --> C;
 ```
 <made by B_Olya>
